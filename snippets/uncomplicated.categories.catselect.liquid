@@ -1,0 +1,24 @@
+<select id="uncomplicated-select" class="category-select show-styled">
+    <option value="" selected="selected" disabled="disabled">&lt;Jump to a category&gt;</option>
+        <option value="/">Home</option>
+    <option value="/pages/about-us">Bed</option>
+    <option value="#">--- Bedding collection</option>
+    <option value="#">--- --- Clara</option>
+    <option value="#">--- --- Roberto</option>
+    <option value="#">--- --- Darian</option>
+
+    <option value="#">--- Sheet Sets</option>
+    <option value="#">--- Duvet Sets</option>
+    <option value="#">--- Coverlet Sets</option>
+    <option value="#">--- Fitted Sheets</option>
+    <option value="#">--- Flat Sheets</option>
+
+    <option value="#">Bath</option>
+    <option value="#">Table</option>
+    <option value="#">Gifts</option>
+    <option value="#">Inside HT</option>
+    <option value="#">Contact Us</option>
+
+</select>
+{{ 'uncomplicated.categories.catlist.min.js' | asset_url | script_tag }}
+{{ 'uncomplicated.categories.catlist.css' | asset_url | stylesheet_tag }}

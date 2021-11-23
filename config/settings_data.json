@@ -1,0 +1,1042 @@
+{
+  "current": {
+    "color_text": "#3d4246",
+    "color_body_text": "#69727b",
+    "color_sale_text": "#557b97",
+    "color_button": "#d6c042",
+    "color_button_text": "#fff",
+    "color_small_button_text_border": "#3d4246",
+    "color_text_field_text": "#000",
+    "color_text_field_border": "#949494",
+    "color_text_field": "#fff",
+    "color_image_overlay_text": "#fff",
+    "color_image_overlay": "#3d4246",
+    "image_overlay_opacity": 40,
+    "color_borders": "#e8e9eb",
+    "color_body_bg": "#fff",
+    "type_header_font": "work_sans_n6",
+    "type_header_base_size": 26,
+    "type_base_font": "work_sans_n4",
+    "type_base_size": 16,
+    "type_bold_product_titles": false,
+    "share_image": "shopify:\/\/shop_images\/logo_paspartoo_69bc5c4d-c861-4bbe-bf9a-2f9910db1bf0.png",
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true,
+    "social_twitter_link": "https:\/\/twitter.com\/paspartoo",
+    "social_facebook_link": "https:\/\/facebook.com\/paspartoo",
+    "social_pinterest_link": "https:\/\/pinterest.com\/paspartoo",
+    "social_instagram_link": "http:\/\/instagram.com\/paspartoo",
+    "social_tumblr_link": "http:\/\/paspartoo.com",
+    "social_snapchat_link": "",
+    "social_youtube_link": "https:\/\/www.youtube.com\/paspartoo",
+    "social_vimeo_link": "https:\/\/vimeo.com\/paspartoo",
+    "favicon": "shopify:\/\/shop_images\/Screenshot_2.png",
+    "checkout_header_image": "shopify:\/\/shop_images\/Shoe_Cleaning_bg.jpg",
+    "checkout_logo_image": "shopify:\/\/shop_images\/logo_paspartoo_930c9fd9-5384-4dc7-99b8-326239f9a608.png",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#197bbd",
+    "checkout_button_color": "#197bbd",
+    "checkout_error_color": "#e32c2b",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "align_logo": "left",
+          "logo": "shopify:\/\/shop_images\/logo_paspartoo_593cae9f-da77-4661-aa04-318fb918735a.png",
+          "logo_max_width": 250,
+          "main_linklist": "home-treasure",
+          "message": false,
+          "home_page_only": true,
+          "message_text": "Announce something here",
+          "message_link": "shopify:\/\/collections\/manual",
+          "color_bg": "#0b96e6",
+          "color_text": "#ffffff"
+        }
+      },
+      "hero": {
+        "type": "hero",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Fire_Water_Restoration.jpg",
+          "alignment": "center",
+          "title": "Paspartoo title",
+          "text": "<p>Et magna. Egestas vulputate vivamus pede.<strong> Tempus<\/strong> ridiculus et. Nullam<em> ullamcorper<\/em> penatibus at habitasse curae; varius ligula vehicula primis proin. <a href=\"http:\/\/paspartoo.com\" title=\"http:\/\/paspartoo.com\">PASPARTOO<\/a><\/p>",
+          "hero_size": "large",
+          "text_size": "large",
+          "button_label": "textname button",
+          "button_link": "shopify:\/\/collections\/manual"
+        }
+      },
+      "slideshow": {
+        "type": "slideshow",
+        "blocks": {
+          "slideshow-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Area_Rug_Cleaning_bg.jpg",
+              "alignment": "center center",
+              "slide_title": "Our works",
+              "subheading": "Tempus dictum feugiat fusce mollis ornare Posuere fusce arcu lacus nisl turpis nisl. Ultricies senectus. Et parturient phasellus velit dictum.",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "slideshow-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Bed_and_Table_Linen_Cleaning_bg.jpg",
+              "alignment": "center center",
+              "slide_title": "Badroom",
+              "subheading": "Description",
+              "button_label": "Best website",
+              "button_link": "http:\/\/paspartoo.com"
+            }
+          },
+          "1572524469295": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Handbag_Cleaning_bg.jpg",
+              "alignment": "center center",
+              "slide_title": "Bag",
+              "subheading": "Its the best bag",
+              "button_label": "Best bag in the world",
+              "button_link": "#Best_b"
+            }
+          }
+        },
+        "block_order": [
+          "slideshow-0",
+          "slideshow-1",
+          "1572524469295"
+        ],
+        "settings": {
+          "slideshow_height": "adapt",
+          "text_size": "medium",
+          "text_alignment": "center center",
+          "show_overlay": true,
+          "autorotate": false,
+          "autorotate_speed": 5
+        }
+      },
+      "featured-collections": {
+        "type": "collection",
+        "settings": {
+          "title": "Featured collection",
+          "collection": "frontpage",
+          "grid": 2,
+          "rows": 1,
+          "show_vendor": false,
+          "show_view_all": true
+        }
+      },
+      "feature-row": {
+        "type": "feature-row",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/logo_paspartoo_593cae9f-da77-4661-aa04-318fb918735a.png",
+          "layout": "left",
+          "title": "Image with text",
+          "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+          "button_label": "Contact us",
+          "button_link": "shopify:\/\/pages\/contact-us"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "link_list": {
+            "type": "link_list",
+            "settings": {
+              "title": "Main menu",
+              "menu": "main-menu"
+            }
+          },
+          "1572615618409": {
+            "type": "link_list",
+            "settings": {
+              "title": "Quick links",
+              "menu": "footer"
+            }
+          },
+          "text": {
+            "type": "text",
+            "settings": {
+              "title": "Talk about your business",
+              "text": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
+            }
+          },
+          "newsletter": {
+            "type": "newsletter",
+            "settings": {
+              "title": "Newsletter"
+            }
+          }
+        },
+        "block_order": [
+          "link_list",
+          "1572615618409",
+          "text",
+          "newsletter"
+        ],
+        "settings": {
+          "show_payment_icons": false,
+          "color_footer_bg": "#f5f5f5",
+          "color_footer_text": "#3d4246"
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "background": "",
+          "background_mob": "",
+          "title": "",
+          "next_page": "",
+          "next_page_link": "",
+          "text_link": "",
+          "link": "",
+          "layout": "grid",
+          "grid": 5,
+          "rows": 2,
+          "show_collection_image": true,
+          "show_vendor": false,
+          "sort_enable": true,
+          "tags_enable": true
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "settings": {
+          "cart_notes_enable": false
+        }
+      },
+      "1572614104061": {
+        "type": "collection-list",
+        "blocks": {
+          "1572614104061-0": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "manual"
+            }
+          },
+          "1572614104061-1": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "sales"
+            }
+          },
+          "1572614104061-2": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "frontpage"
+            }
+          }
+        },
+        "block_order": [
+          "1572614104061-0",
+          "1572614104061-1",
+          "1572614104061-2"
+        ],
+        "settings": {
+          "title": "Collection list",
+          "grid": 3
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "image_size": "medium",
+          "show_quantity_selector": false,
+          "show_variant_labels": true,
+          "show_vendor": false,
+          "enable_zoom": true,
+          "enable_payment_button": true,
+          "show_share_buttons": true
+        }
+      },
+      "1572614519498": {
+        "type": "map",
+        "settings": {
+          "heading": "Our company",
+          "address": "<p>123 Fake St.<br>Maiami, USA<\/p>\n<p>Mon - Fri, 10am - 9pm<br>Saturday, 11am - 9pm<br>Sunday, 11am - 5pm<br><br>Our address:<br>&nbsp;<a href=\"https:\/\/goo.gl\/maps\/a3i14CZ7G4v\">18851 NE 29th Ave, Suite 700,<br>Miami, FL 33180<\/a><\/p>",
+          "map_address": "18851 NE 29th Ave, Suite 700, Miami, FL 33180",
+          "button_text": "Get directions",
+          "show_pin": true,
+          "api_key": "",
+          "background_image": "shopify:\/\/shop_images\/footer.jpg",
+          "background_image_position": "center center"
+        }
+      },
+      "1572614868467": {
+        "type": "custom-content",
+        "blocks": {
+          "1572614868467-0": {
+            "type": "text",
+            "settings": {
+              "title": "Talk about your brand",
+              "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+              "width": "25%",
+              "alignment": "center",
+              "align_text": "left"
+            }
+          },
+          "1572614884297": {
+            "type": "html",
+            "settings": {
+              "code": "<div class=\"container\">\n      <h1 style=\"color:orange; font-weight:900;font-style:italic; border: 1px dotted pink; padding:10px 18px;\" class=\"text-center\">Thank you<\/h1>     \n      <a href=\"index.html\">\n        <h2 class=\"text-center\">return to Homepage<\/h2>\n      <\/a>\n\n<img style=\"max-height:400px; display:block; text-align:center; margin: 0 auto;\" src=\"https:\/\/paspartoo.com\/wp-content\/uploads\/2019\/06\/magento_migration-.jpg\">\n\n    <\/div>",
+              "width": "75%"
+            }
+          }
+        },
+        "block_order": [
+          "1572614868467-0",
+          "1572614884297"
+        ],
+        "settings": {
+          "title": "Custom content"
+        }
+      },
+      "individual_plan_table": {
+        "type": "individual_plan_table",
+        "blocks": {
+          "639df96d-6164-4c7a-ac20-9b508c462426": {
+            "type": "plan_type",
+            "settings": {
+              "title": "Online Care",
+              "title_1": "$20\/Month",
+              "title_2": true,
+              "title_3": true,
+              "title_4": true,
+              "title_5": false,
+              "title_6": "5",
+              "title_7": "-",
+              "title_8": "5 Online",
+              "title_9": "-",
+              "title_10": "-",
+              "title_11": "-",
+              "title_12": "-"
+            }
+          },
+          "5eea6ee8-1122-4aea-9842-6e73b8a9bb08": {
+            "type": "plan_type",
+            "settings": {
+              "title": "Flexible Care",
+              "title_1": "$45\/Month",
+              "title_2": true,
+              "title_3": true,
+              "title_4": true,
+              "title_5": true,
+              "title_6": "7",
+              "title_7": "2",
+              "title_8": "7 Online \/ 2 In-Clinic",
+              "title_9": "1",
+              "title_10": "-",
+              "title_11": "Flu Jab",
+              "title_12": "-"
+            }
+          },
+          "0857bf89-1ac9-4a33-91fc-fe22d89cbfa3": {
+            "type": "plan_type",
+            "settings": {
+              "title": "Essential care",
+              "title_1": "$85\/month",
+              "title_2": true,
+              "title_3": true,
+              "title_4": true,
+              "title_5": true,
+              "title_6": "12",
+              "title_7": "4",
+              "title_8": "12 Online 4 In-Clinic",
+              "title_9": "2",
+              "title_10": "12 Assessments 4 Blood Profiles",
+              "title_11": "Flu Jab",
+              "title_12": "-"
+            }
+          },
+          "4026e0a0-f422-45c5-9db4-5aa61dd8fb59": {
+            "type": "plan_type",
+            "settings": {
+              "title": "Comprehensive Care",
+              "title_1": "$145\/month",
+              "title_2": true,
+              "title_3": true,
+              "title_4": true,
+              "title_5": true,
+              "title_6": "Unlimited",
+              "title_7": "7",
+              "title_8": "Unlimited Online 7 In-Clinic",
+              "title_9": "3",
+              "title_10": "16 Assessments 7 Blood  profiles",
+              "title_11": "Flu Jab Pneumonia",
+              "title_12": "Mindfulness +2 Nutrition  Prehab  Phusio +1"
+            }
+          },
+          "dd80c60e-b8de-4ebf-bdc6-2b37646f5b1b": {
+            "type": "plan_type",
+            "settings": {
+              "title": "Total Care",
+              "title_1": "$235\/month",
+              "title_2": true,
+              "title_3": true,
+              "title_4": true,
+              "title_5": true,
+              "title_6": "Unlimited",
+              "title_7": "Unlimited",
+              "title_8": "Unlimited",
+              "title_9": "4",
+              "title_10": "17 Assessments 10 Blood Profile",
+              "title_11": "Flu Jab Pneumonia",
+              "title_12": "Mindfulness + 5 Nutrition Prehub Physio +1"
+            }
+          }
+        },
+        "block_order": [
+          "639df96d-6164-4c7a-ac20-9b508c462426",
+          "5eea6ee8-1122-4aea-9842-6e73b8a9bb08",
+          "0857bf89-1ac9-4a33-91fc-fe22d89cbfa3",
+          "4026e0a0-f422-45c5-9db4-5aa61dd8fb59",
+          "dd80c60e-b8de-4ebf-bdc6-2b37646f5b1b"
+        ],
+        "settings": {
+          "title_1": "",
+          "title_2": "",
+          "title_3": "",
+          "title_4": "",
+          "title_5": "",
+          "title_6": "",
+          "title_7": "",
+          "title_8": "",
+          "title_9": "",
+          "title_10": "",
+          "title_11": "",
+          "title_12": ""
+        }
+      },
+      "couple_plan_table": {
+        "type": "couple_plan_table",
+        "blocks": {
+          "c4c22bbe-30a1-4e63-b790-3ad6828fd46b": {
+            "type": "plan_type",
+            "settings": {
+              "title": "Online Care",
+              "title_1": "$40\/month",
+              "title_2": true,
+              "title_3": true,
+              "title_4": false,
+              "title_5": false,
+              "title_6": "8",
+              "title_7": "-",
+              "title_8": "8  online",
+              "title_9": "-",
+              "title_10": "-",
+              "title_11": "-",
+              "title_12": "-"
+            }
+          },
+          "64224c12-322a-487d-9977-7b1f5763f69e": {
+            "type": "plan_type",
+            "settings": {
+              "title": "Flexible Care",
+              "title_1": "$75\/month",
+              "title_2": true,
+              "title_3": true,
+              "title_4": true,
+              "title_5": true,
+              "title_6": "10",
+              "title_7": "3",
+              "title_8": "10 Online 3 In-Clinic",
+              "title_9": "2",
+              "title_10": "-",
+              "title_11": "Flu Jab",
+              "title_12": "-"
+            }
+          },
+          "3776a386-cffc-4a89-8bcd-e1acde3fdd00": {
+            "type": "plan_type",
+            "settings": {
+              "title": "Essential Care",
+              "title_1": "$150\/month",
+              "title_2": true,
+              "title_3": true,
+              "title_4": true,
+              "title_5": true,
+              "title_6": "18",
+              "title_7": "6",
+              "title_8": "18 Online 6-In Clinic",
+              "title_9": "4",
+              "title_10": "12 Assessments 4 Blood Profiles",
+              "title_11": "Flu Jab",
+              "title_12": "-"
+            }
+          },
+          "88f38876-f04c-46ba-85ea-9b1947a2785a": {
+            "type": "plan_type",
+            "settings": {
+              "title": "Comprehensive Care",
+              "title_1": "$250\/month",
+              "title_2": true,
+              "title_3": true,
+              "title_4": true,
+              "title_5": true,
+              "title_6": "Unlimited",
+              "title_7": "12",
+              "title_8": "Unlimited Online 12 In -Clinic",
+              "title_9": "6",
+              "title_10": "16 Assessments 7 Blood  Profile",
+              "title_11": "Flu Jab Pneumonia",
+              "title_12": "Mindfulness + 2 Nutrition Prehab  Physio +1"
+            }
+          },
+          "4e203b7a-93fc-4752-8a33-93afa575022e": {
+            "type": "plan_type",
+            "settings": {
+              "title": "Total Care",
+              "title_1": "$445\/month",
+              "title_2": true,
+              "title_3": true,
+              "title_4": true,
+              "title_5": true,
+              "title_6": "Unlimited",
+              "title_7": "Unlimited",
+              "title_8": "Unlimited",
+              "title_9": "8",
+              "title_10": "17 Assessments 10 Blood Profiles",
+              "title_11": "Flu Jab Pneumonia",
+              "title_12": "Mindfulness +5 Nutrition Prehab  Phusio +3"
+            }
+          }
+        },
+        "block_order": [
+          "c4c22bbe-30a1-4e63-b790-3ad6828fd46b",
+          "64224c12-322a-487d-9977-7b1f5763f69e",
+          "3776a386-cffc-4a89-8bcd-e1acde3fdd00",
+          "88f38876-f04c-46ba-85ea-9b1947a2785a",
+          "4e203b7a-93fc-4752-8a33-93afa575022e"
+        ],
+        "settings": {
+          "title_1": "",
+          "title_2": "<p>Accordions are useful when you want to toggle between hiding and showing large amount of content:<\/p>",
+          "title_3": "<p>Accordions are useful when you want to toggle between hiding and showing large amount of content:<\/p>",
+          "title_4": "<p>Accordions are useful when you want to toggle between hiding and showing large amount of content:<\/p>",
+          "title_5": "<p>Accordions are useful when you want to toggle between hiding and showing large amount of content:<\/p>",
+          "title_6": "<p>Accordions are useful when you want to toggle between hiding and showing large amount of content:<\/p>",
+          "title_7": "<p>Accordions are useful when you want to toggle between hiding and showing large amount of content:<\/p>",
+          "title_8": "<p>Accordions are useful when you want to toggle between hiding and showing large amount of content:<\/p>",
+          "title_9": "<p>Accordions are useful when you want to toggle between hiding and showing large amount of content:<\/p>",
+          "title_10": "<p>Accordions are useful when you want to toggle between hiding and showing large amount of content:<\/p>",
+          "title_11": "<p>Accordions are useful when you want to toggle between hiding and showing large amount of content:<\/p>",
+          "title_12": "<p>Accordions are useful when you want to toggle between hiding and showing large amount of content:<\/p>"
+        }
+      },
+      "household_plan_table": {
+        "type": "household_plan_table",
+        "blocks": {
+          "387fa491-8596-42f0-8690-a24f9d040cbc": {
+            "type": "plan_type",
+            "settings": {
+              "title": "3 Person \/ Online Care",
+              "plan_subtype": "plan_subtype_1",
+              "title_plan": "Online Care",
+              "title_1": "$60\/month",
+              "title_2": true,
+              "title_3": true,
+              "title_4": false,
+              "title_5": "13",
+              "title_6": "-",
+              "title_7": "13 Online",
+              "title_8": "-",
+              "title_9": "-",
+              "title_10": "-",
+              "title_11": false,
+              "title_12": "-",
+              "title_13": "-"
+            }
+          },
+          "7d3457d5-61ce-4efe-a94a-c4ae90668a49": {
+            "type": "plan_type",
+            "settings": {
+              "title": "3 Person \/ Flexible Care",
+              "plan_subtype": "plan_subtype_1",
+              "title_plan": "Flexible Care",
+              "title_1": "$135\/month",
+              "title_2": true,
+              "title_3": true,
+              "title_4": true,
+              "title_5": "16",
+              "title_6": "6",
+              "title_7": "16 Online 12 In-Clinic",
+              "title_8": "4",
+              "title_9": "-",
+              "title_10": "-",
+              "title_11": false,
+              "title_12": "Flu Jab",
+              "title_13": "-"
+            }
+          },
+          "7fca4de9-0656-47ff-89fd-19c343bf3d1f": {
+            "type": "plan_type",
+            "settings": {
+              "title": "4 Person \/ Online Care",
+              "plan_subtype": "plan_subtype_2",
+              "title_plan": "Essential Care",
+              "title_1": "$245\/month",
+              "title_2": true,
+              "title_3": true,
+              "title_4": true,
+              "title_5": "24",
+              "title_6": "12",
+              "title_7": "24 Online 12 In-Clinic",
+              "title_8": "8",
+              "title_9": "12 Assessments 4 Blood Profile",
+              "title_10": "-",
+              "title_11": false,
+              "title_12": "Flu Jab",
+              "title_13": "-"
+            }
+          },
+          "25123451-5901-4bf3-bda6-ab8b7a7c8605": {
+            "type": "plan_type",
+            "settings": {
+              "title": "4 Person \/ Flexible Care",
+              "plan_subtype": "plan_subtype_1",
+              "title_plan": "Vomprehensive Care",
+              "title_1": "$450\/month",
+              "title_2": true,
+              "title_3": true,
+              "title_4": true,
+              "title_5": "Unlimited",
+              "title_6": "20",
+              "title_7": "Unlimited Online 20 In-Clinic",
+              "title_8": "12",
+              "title_9": "16 A ssessments 7 Blood Profile",
+              "title_10": "14 A ssessments 4 Blood Profile",
+              "title_11": true,
+              "title_12": "Flu Jab Pneumonia",
+              "title_13": "Mindfulness + 2 Nutrition Prehab Physio +1"
+            }
+          },
+          "fcd5caa9-9513-4bdd-b5d0-6cb252420ba3": {
+            "type": "plan_type",
+            "settings": {
+              "title": "5 Person \/ Online Care",
+              "plan_subtype": "plan_subtype_3",
+              "title_plan": "Total Care",
+              "title_1": "$790\/month",
+              "title_2": true,
+              "title_3": true,
+              "title_4": true,
+              "title_5": "Unlimited",
+              "title_6": "Unlimited",
+              "title_7": "Unlimited",
+              "title_8": "16",
+              "title_9": "17 assessment 10 Blood Profile",
+              "title_10": "14 assessment 4 Blood Profile",
+              "title_11": true,
+              "title_12": "Flu Jab Pneumonia",
+              "title_13": "Mindfulness +2 Nutrition Prehab  Physio +1"
+            }
+          },
+          "13534be2-35ca-474f-99b8-34ef49293435": {
+            "type": "plan_type",
+            "settings": {
+              "title": "5 Person \/ Flexible Care",
+              "plan_subtype": "plan_subtype_3",
+              "title_plan": "Online Care",
+              "title_1": "$60\/month",
+              "title_2": true,
+              "title_3": true,
+              "title_4": false,
+              "title_5": "13",
+              "title_6": "-",
+              "title_7": "13 Online",
+              "title_8": "-",
+              "title_9": "-",
+              "title_10": "-",
+              "title_11": false,
+              "title_12": "-",
+              "title_13": "-"
+            }
+          }
+        },
+        "block_order": [
+          "387fa491-8596-42f0-8690-a24f9d040cbc",
+          "7d3457d5-61ce-4efe-a94a-c4ae90668a49",
+          "7fca4de9-0656-47ff-89fd-19c343bf3d1f",
+          "25123451-5901-4bf3-bda6-ab8b7a7c8605",
+          "fcd5caa9-9513-4bdd-b5d0-6cb252420ba3",
+          "13534be2-35ca-474f-99b8-34ef49293435"
+        ],
+        "settings": {
+          "title_1": "",
+          "title_2": "",
+          "title_3": "",
+          "title_4": "",
+          "title_5": "",
+          "title_6": "",
+          "title_7": "",
+          "title_8": "",
+          "title_9": "",
+          "title_10": "",
+          "title_11": "",
+          "title_12": "",
+          "title_13": ""
+        }
+      }
+    },
+    "content_for_index": [
+      "hero",
+      "featured-collections",
+      "slideshow",
+      "feature-row",
+      "1572614104061",
+      "1572614519498",
+      "1572614868467"
+    ]
+  },
+  "presets": {
+    "Default": {
+      "color_text": "#3d4246",
+      "color_body_text": "#69727b",
+      "color_sale_text": "#557B97",
+      "color_borders": "#e8e9eb",
+      "color_button": "#557B97",
+      "color_button_text": "#fff",
+      "color_small_button_text_border": "#3d4246",
+      "color_text_field": "#fff",
+      "color_text_field_text": "#000",
+      "color_text_field_border": "#949494",
+      "color_image_overlay_text": "#fff",
+      "color_image_overlay": "#3d4246",
+      "image_overlay_opacity": 40,
+      "color_body_bg": "#fff",
+      "type_header_font": "work_sans_n6",
+      "type_header_base_size": 26,
+      "type_base_font": "work_sans_n4",
+      "type_base_size": 16,
+      "type_bold_product_titles": false,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {}
+        },
+        "hero": {
+          "type": "hero",
+          "settings": {
+            "text_size": "large"
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slideshow-0": {
+              "type": "image",
+              "settings": {}
+            },
+            "slideshow-1": {
+              "type": "image",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "slideshow-0",
+            "slideshow-1"
+          ],
+          "settings": {}
+        },
+        "featured-collections": {
+          "type": "collection",
+          "settings": {
+            "collection": "frontpage"
+          }
+        },
+        "feature-row": {
+          "type": "feature-row",
+          "settings": {}
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "link_list": {
+              "type": "link_list",
+              "settings": {}
+            },
+            "text": {
+              "type": "text",
+              "settings": {}
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "link_list",
+            "text",
+            "newsletter"
+          ],
+          "settings": {}
+        }
+      },
+      "content_for_index": [
+        "hero",
+        "featured-collections",
+        "feature-row",
+        "slideshow"
+      ]
+    },
+    "Light": {
+      "color_text": "#162950",
+      "color_body_text": "#6d6d6d",
+      "color_sale_text": "#DA2F0C",
+      "color_borders": "#e4e4e4",
+      "color_button": "#DA2F0C",
+      "color_button_text": "#ffffff",
+      "color_small_button_text_border": "#162950",
+      "color_text_field": "#ffffff",
+      "color_text_field_text": "#162950",
+      "color_text_field_border": "#909090",
+      "color_image_overlay_text": "#ffffff",
+      "color_image_overlay": "#3d3d3d",
+      "image_overlay_opacity": 40,
+      "color_body_bg": "#f8f8f8",
+      "type_header_font": "muli_n6",
+      "type_header_base_size": 26,
+      "type_base_font": "muli_n4",
+      "type_base_size": 18,
+      "type_bold_product_titles": true,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "social_twitter_link": "",
+      "social_facebook_link": "",
+      "social_pinterest_link": "",
+      "social_instagram_link": "",
+      "social_tumblr_link": "",
+      "social_snapchat_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "small",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#e8f3f6",
+      "checkout_heading_font": "Roboto",
+      "checkout_body_font": "Source Sans Pro",
+      "checkout_accent_color": "#1990c6",
+      "checkout_button_color": "#23314e",
+      "checkout_error_color": "#ff6d6d",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "align_logo": "left",
+            "logo": "",
+            "logo_max_width": 135,
+            "main_linklist": "main-menu",
+            "message": true,
+            "color_bg": "#162950",
+            "color_text": "#ffffff"
+          }
+        },
+        "hero": {
+          "type": "hero",
+          "settings": {
+            "alignment": "center",
+            "hero_size": "x-large",
+            "text_size": "large"
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slideshow-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center center"
+              }
+            },
+            "1492095993817": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center"
+              }
+            }
+          },
+          "block_order": [
+            "slideshow-0",
+            "1492095993817"
+          ],
+          "settings": {
+            "slideshow_height": "medium",
+            "text_size": "medium",
+            "autorotate": false,
+            "autorotate_speed": 5
+          }
+        },
+        "featured-collections": {
+          "type": "collection",
+          "settings": {
+            "grid": 3,
+            "rows": 1,
+            "show_vendor": true,
+            "show_view_all": true
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "image_size": "medium",
+            "show_quantity_selector": false,
+            "show_variant_labels": true,
+            "show_vendor": false,
+            "enable_zoom": true,
+            "show_share_buttons": true
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "layout": "grid",
+            "grid": 2,
+            "rows": 2,
+            "show_collection_image": true,
+            "show_vendor": false,
+            "sort_enable": true,
+            "tags_enable": true
+          }
+        },
+        "1492033809691": {
+          "type": "map",
+          "settings": {}
+        },
+        "1492033877875": {
+          "type": "quotes",
+          "blocks": {
+            "1492033877875-0": {
+              "type": "quote",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1492033877875-0"
+          ],
+          "settings": {}
+        },
+        "1492033924902": {
+          "type": "custom-content",
+          "blocks": {
+            "1492033924902-0": {
+              "type": "text",
+              "settings": {
+                "width": "100%",
+                "alignment": "center",
+                "align_text": "center"
+              }
+            }
+          },
+          "block_order": [
+            "1492033924902-0"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "1492096252560": {
+          "type": "collection-list",
+          "blocks": {
+            "1492096252560-0": {
+              "type": "featured_collection",
+              "settings": {}
+            },
+            "1492096252560-1": {
+              "type": "featured_collection",
+              "settings": {}
+            },
+            "1492096252560-2": {
+              "type": "featured_collection",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1492096252560-0",
+            "1492096252560-1",
+            "1492096252560-2"
+          ],
+          "settings": {
+            "grid": 3
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "layout": "grid",
+            "blog_show_author": true,
+            "blog_show_date": false
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_author": true,
+            "blog_show_date": true,
+            "show_share_buttons": true
+          }
+        },
+        "cart-template": {
+          "type": "cart-template",
+          "settings": {
+            "cart_notes_enable": false
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "link_list": {
+              "type": "link_list",
+              "settings": {}
+            },
+            "text": {
+              "type": "text",
+              "settings": {}
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "link_list",
+            "text",
+            "newsletter"
+          ],
+          "settings": {}
+        }
+      },
+      "content_for_index": [
+        "hero",
+        "featured-collections",
+        "slideshow",
+        "1492033924902",
+        "1492096252560",
+        "1492033877875",
+        "1492033809691"
+      ]
+    }
+  }
+}

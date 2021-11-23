@@ -1,0 +1,252 @@
+ 
+<div class="container">
+  <div class="row">
+  <div class="col-xl-4 col-lg-4 col-md-4 ">
+    <button class="accordion">Monthly Free</button>
+<div class="panel">
+  <p>{{section.settings.title_1}}</p>
+</div>
+
+<button class="accordion">Urgent Access 24/7</button>
+<div class="panel">
+  <p>{{section.settings.title_2}}</p>
+</div>
+
+<button class="accordion">Online Doctors 24/7</button>
+<div class="panel">
+  <p>{{section.settings.title_3}}</p>
+</div>
+
+<button class="accordion">In-Clinic Care 24/7</button>
+<div class="panel">
+  <p>{{section.settings.title_4}}</p>
+</div>
+
+<button class="accordion">Choice of Lead Doctor </button>
+<div class="panel">
+  <p>{{section.settings.title_5}}</p>
+</div>
+
+<button class="accordion">Online GP Consultations</button>
+<div class="panel">
+  <p>{{section.settings.title_6}}</p>
+</div>
+
+<button class="accordion">In-Clinic GP  Consultations</button>
+<div class="panel">
+  <p>{{section.settings.title_7}}</p>
+</div>
+
+<button class="accordion">Follow  up Consultations</button>
+<div class="panel">
+  <p>{{section.settings.title_8}}</p>
+</div>
+
+<button class="accordion">Covid 19 Tests</button>
+<div class="panel">
+  <p>{{section.settings.title_9}}</p>
+</div>
+
+<button class="accordion">Annual Medical x 2</button>
+<div class="panel">
+  <p>{{section.settings.title_10}}</p>
+</div>
+
+<button class="accordion">Vaccinations x 2</button>
+<div class="panel">
+  <p>{{section.settings.title_11}}</p>
+</div>
+
+<button class="accordion"> Preventative Wellbeing x 2</button>
+<div class="panel">
+  <p>{{section.settings.title_12}}</p>
+</div>
+  
+  
+    </div>
+       </div>
+</div>
+
+
+
+
+
+
+
+<script> 
+  var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+
+</script>
+
+
+
+{% schema %}
+  {
+    "name": "Couple Plan Table",
+    "settings": [
+  
+	{
+       "type": "header",
+       "content": "Plan Description"
+    },
+
+   {
+   "type": "richtext",
+   "id": "title_1",
+   "label": "Monthly Free"
+	},
+   {
+   "type": "richtext",
+   "id": "title_2",
+   "label": "Urgent Access 24/7"
+	},
+   {
+   "type": "richtext",
+   "id": "title_3",
+   "label": "Online Doctors 24/7"
+	},
+   {
+   "type": "richtext",
+   "id": "title_4",
+   "label": "In-Clinic Care 24/7"
+	},
+    {
+   "type": "richtext",
+   "id": "title_5",
+   "label": "Choice of Lead Doctor "
+	},
+    {
+   "type": "richtext",
+   "id": "title_6",
+   "label": "Online GP Consultations"
+	},
+   {
+   "type": "richtext",
+   "id": "title_7",
+   "label": "In-Clinic GP  Consultations"
+	},
+       {
+   "type": "richtext",
+   "id": "title_8",
+   "label": "Follow  up Consultations"
+	},
+    {
+   "type": "richtext",
+   "id": "title_9",
+   "label": "Covid 19 Tests"
+	},
+    {
+   "type": "richtext",
+   "id": "title_10",
+   "label": "Annual Medical x 2"
+	},
+    {
+   "type": "richtext",
+   "id": "title_11",
+   "label": "Vaccinations x 2"
+	},
+    {
+   "type": "richtext",
+   "id": "title_12",
+   "label": "Preventative Wellbeing x 2"
+	}
+],
+ "blocks": [
+    {
+      "type": "plan_type",
+      "name": "Plan Type",
+      "settings": [ 
+		{
+       "type": "text",
+       "id": "title",
+       "label": "Plan name"
+      },
+      {
+       "type": "text",
+       "id": "title_1",
+       "label": "Monthly Fee (price)"
+      },
+      {
+     "type": "checkbox",
+     "id": "title_2",
+     "label": "Urgent Access 24/7 ",
+	  "info": "Yes/No"
+      },
+      {
+     "type": "checkbox",
+     "id": "title_3",
+     "label": "Online Doctors 24/7",
+	  "info": "Yes/No"
+      },
+     {
+     "type": "checkbox",
+     "id": "title_4",
+     "label": "In-Clinic Care 24/7",
+	  "info": "Yes/No"
+      },
+      {
+     "type": "checkbox",
+     "id": "title_5",
+     "label": "Choice of Lead Doctor ",
+	  "info": "Yes/No"
+      },
+    {
+   "type": "text",
+   "id": "title_6",
+   "label": "Online GP Consultations"
+	},
+   {
+   "type": "text",
+   "id": "title_7",
+   "label": "In-Clinic GP  Consultations"
+	},
+    {
+   "type": "text",
+   "id": "title_8",
+   "label": "Follow  up Consultations"
+	},
+    {
+   "type": "text",
+   "id": "title_9",
+   "label": "Covid 19 Tests"
+	},
+    {
+   "type": "text",
+   "id": "title_10",
+   "label": "Annual Medical x 2"
+	},
+    {
+   "type": "text",
+   "id": "title_11",
+   "label": "Vaccinations x 2"
+	},
+    {
+   "type": "text",
+   "id": "title_12",
+   "label": "Preventative Wellbeing x 2"
+	}
+       
+ 		]
+	}
+  	]
+	}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

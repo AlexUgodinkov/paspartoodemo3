@@ -1,0 +1,183 @@
+{% schema %}
+  {"name": "Household Plan Table",
+    "settings": [
+  
+	{
+       "type": "header",
+       "content": "Plan Description"
+    },
+
+   {
+   "type": "richtext",
+   "id": "title_1",
+   "label": "Monthly Free"
+	},
+   {
+   "type": "richtext",
+   "id": "title_2",
+   "label": "Urgent Access 24/7"
+	},
+   {
+   "type": "richtext",
+   "id": "title_3",
+   "label": "Online Doctors 24/7"
+	},
+   {
+   "type": "richtext",
+   "id": "title_4",
+   "label": "In-Clinic Care 24/7"
+	},
+    {
+   "type": "richtext",
+   "id": "title_5",
+   "label": "Online GP Consultations"
+	},
+   {
+   "type": "richtext",
+   "id": "title_6",
+   "label": "In-Clinic GP  Consultations"
+	},
+       {
+   "type": "richtext",
+   "id": "title_7",
+   "label": "Follow  up Consultations"
+	},
+    {
+   "type": "richtext",
+   "id": "title_8",
+   "label": "Covid 19 Tests"
+	},
+    {
+   "type": "richtext",
+   "id": "title_9",
+   "label": "Adult Annual  Medical"
+	},
+    {
+   "type": "richtext",
+   "id": "title_10",
+   "label": "Teen (13+) Mini Medicals "
+	},
+    {
+   "type": "richtext",
+   "id": "title_11",
+   "label": "Pre-Teen Health Checks"
+	},
+    {
+   "type": "richtext",
+   "id": "title_12",
+   "label": "Household Vaccinations"
+	},
+    {
+   "type": "richtext",
+   "id": "title_13",
+   "label": "Household Preventative Wellbeing(Adults & Teeens) "
+	}
+
+],
+ "blocks": [
+    {
+      "type": "plan_type",
+      "name": "Plan Type",
+      "settings": [ 	
+		{
+       "type": "text",
+       "id": "title",
+       "label": "Inner title"
+      },
+      {
+         "type": "select",
+         "id": "plan_subtype",
+         "options": [
+            { "value": "plan_subtype_1", "label": "3 Person Household"},
+            { "value": "plan_subtype_2", "label": "4 Person Household"},
+            { "value": "plan_subtype_3", "label": "5 Person Household"},
+            { "value": "plan_subtype_4", "label": "6 Person Household"}
+         ],
+         "label": "Plan Subtype"
+      },
+		{
+       "type": "text",
+       "id": "title_plan",
+       "label": "Plan name"
+      },
+      {
+       "type": "text",
+       "id": "title_1",
+       "label": "Monthly Fee (price)"
+      },
+      {
+     "type": "checkbox",
+     "id": "title_2",
+     "label": "Urgent Access 24/7",
+	  "info": "Yes/No"
+      },
+      {
+     "type": "checkbox",
+     "id": "title_3",
+     "label": "Online Doctors 24/7",
+	  "info": "Yes/No"
+      },
+     {
+     "type": "checkbox",
+     "id": "title_4",
+     "label": "In-Clinic Care 24/7",
+	  "info": "Yes/No"
+      },
+      {
+     "type": "text",
+     "id": "title_5",
+     "label": "Online GP Consultations"
+      },
+    {
+   "type": "text",
+   "id": "title_6",
+   "label": "In-Clinic GP Consultations"
+	},
+   {
+   "type": "text",
+   "id": "title_7",
+   "label": "Follow up Consultations"
+	},
+    {
+   "type": "text",
+   "id": "title_8",
+   "label": "Covid 19 Tests"
+	},
+    {
+   "type": "text",
+   "id": "title_9",
+   "label": "Adult Annual  Medical"
+	},
+    {
+   "type": "text",
+   "id": "title_10",
+   "label": "Teen (13+) Mini Medicals "
+	},
+    {
+   "type": "checkbox",
+   "id": "title_11",
+   "label": "Pre-Teen Health Checks",
+     "info": "Yes/No"
+	},
+    {
+   "type": "text",
+   "id": "title_12",
+   "label": "Household Vaccinations"
+	},
+    {
+   "type": "text",
+   "id": "title_13",
+   "label": "Household Preventative Wellbeing(Adults & Teeens) "
+	}
+       
+ 		]
+	}
+  	]
+	}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

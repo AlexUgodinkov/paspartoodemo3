@@ -1,0 +1,29 @@
+{% comment %} Helper for SBDN {% endcomment %}
+
+<script type="text/javascript">
+  if (typeof window.sbdn === 'undefined') {
+    window.sbdn = {};
+  }
+
+  {% if template contains 'product' %}
+    {% unless product.id == blank %}
+      window.sbdn.product = {
+        id: {{product.id}},
+        price: {{product.price}},
+        variants: {{product.variants | json}},
+        collection_ids: [{% for collection in product.collections %}
+        {{ collection.id }}
+          {% if forloop.last != true %}
+        ,
+          {% endif %}
+        {% endfor %}]
+      };
+    {% endunless %}
+  {% endif %}
+</script>
+<script src="https://bulk-discount-production.herokuapp.com/widget/javascript?shop=paspartoodemo3.myshopify.com"></script><style>
+#sbdn-container {
+  color: 'red';
+}
+
+</style>

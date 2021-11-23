@@ -15,9 +15,16 @@ Generated at 2021-04-13 12:33:38
 h1{
   color: #a6d429;
 }
+
 h2{
   color: #4329d4;
 }
+
+.class1{
+  background-color: #a6d429;
+  text-align: center;
+}
+
 .bold-bundles-product {
   width: 100%;
 }

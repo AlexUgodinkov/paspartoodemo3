@@ -95,7 +95,7 @@
               </noscript>
             </a>
           {% else %}
-            <a class="site-header__logo-link" href="/">{{ shop.name }}</a>
+            {{ section.settings.logo_svg }}
           {% endif %}
         {% if template.name == 'index' %}
           </h1>
@@ -385,6 +385,19 @@
     {
       "type": "image_picker",
       "id": "logo",
+      "label": {
+        "de": "Logo-Foto",
+        "en": "Logo image",
+        "es": "Logotipo",
+        "fr": "Image du logo",
+        "it": "Immagine del logo",
+        "ja": "ロゴ画像",
+        "pt-BR": "Imagem do logotipo"
+      }
+    },
+    {
+      "type": "html",
+      "id": "logo_svg",
       "label": {
         "de": "Logo-Foto",
         "en": "Logo image",

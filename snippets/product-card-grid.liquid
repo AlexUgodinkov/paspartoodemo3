@@ -14,7 +14,7 @@ Instructions for Limoni Apps Discount Ninja:
 The the use of the data-limoniapps-discountninja-product-handle tag on the line below is required for Limoni Apps Discount Ninja's Dynamic Pricing feature
 {% endcomment %}
 <div class="grid-view-item{% unless product.available %} grid-view-item--sold-out{% endunless %} product-card"  data-limoniapps-discountninja-product-handle="{{ product.handle }}">
-  <a class="grid-view-item__link grid-view-item__image-container full-width-link" href="test/{{ product.url | within: collection }}">
+  <a class="grid-view-item__link grid-view-item__image-container full-width-link" href="test{{ product.url | within: collection }}">
     <span class="visually-hidden">{{ product.title }}</span>
   </a>
 

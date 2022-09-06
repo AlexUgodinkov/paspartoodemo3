@@ -4,7 +4,7 @@
     <div class="slider-wrapper container">
 	  {% for block in section.blocks %}
         <div class="car-slider__item row"> 
-          <div class="item-info">
+          <div class="item-info col-5">
         {%- if block.settings.price-car-title -%} 
                     <div class="car-slider__title">{{ block.settings.price-car-title }}</div> 
                 {%- endif -%}  
@@ -25,7 +25,7 @@
                   {% endif %}
                 </div>
         </div>
-          <div class="item-images__wrapper">
+          <div class="item-images__wrapper col-7">
             {%- if block.settings.year-car -%} 
                     <div class="car-slider__year-car">{{ block.settings.year-car }}</div> 
                 {%- endif -%} 

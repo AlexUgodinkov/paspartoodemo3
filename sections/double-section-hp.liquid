@@ -1,3 +1,22 @@
+<div class="double-section row">
+  <div class="col-6">
+    {% if section.settings.image-1 != blank %}
+            <div class="double-section-image"><img src="{{ section.settings.image-1 | img_url :"master" }}"></div>
+          {% endif %}
+          {% if section.settings.link-first != blank %}
+                  <a href="{{section.settings.link-first}}">{{section.settings.text-link-first}}</a>
+                  {% endif %}
+  </div>
+  <div class="col-6">
+    {% if section.settings.image-1 != blank %}
+            <div class="double-section-image"><img src="{{ section.settings.image-1 | img_url :"master" }}"></div>
+          {% endif %}
+          {% if section.settings.link-first != blank %}
+                  <a href="{{section.settings.link-first}}">{{section.settings.text-link-first}}</a>
+                  {% endif %}
+  </div>
+</div>
+
 {% schema %}
   {
     "name": "Double section",

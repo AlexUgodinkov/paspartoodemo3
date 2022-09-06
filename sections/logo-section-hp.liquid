@@ -1,7 +1,46 @@
+<div class="container logo-section-s">
+  <div class="row">
+    <div class="col-5 logo-section__image">
+      {%- if section.settings.image-logo-s -%} 
+                    <div class="car-slider__price-car">{{ section.settings.image-logo-s }}</div> 
+                {%- endif -%} 
+    </div>
+    <div class="col-7 logo-section__text">
+      {%- if section.settings.title-logo-s -%} 
+                    <div class="car-slider__price-car">{{ section.settings.title-logo-s }}</div> 
+                {%- endif -%} 
+      {%- if section.settings.text-logo-s -%} 
+                    <div class="car-slider__price-car">{{ section.settings.text-logo-s }}</div> 
+                {%- endif -%} 
+    </div>
+  </div>
+</div>
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Logo sction",
+    "settings": [
+      {
+          "type": "html",
+          "id": "image-logo-s",
+          "label": "Logo (svg)"
+        },
+      {
+          "type": "text",
+          "id": "title-logo-s",
+          "label": "Year"
+        },
+      {
+          "type": "html",
+          "id": "text-logo-s",
+          "label": "text"
+        }
+    ],
+     "presets": [
+       {
+         "name": "Logo sction" 
+       }
+      ]
   }
 {% endschema %}
 

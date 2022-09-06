@@ -10,10 +10,11 @@
       <div class="item__image">
         <img src="{{ block.settings.accessoriesproduct | img_url: "master" }}"
       </div>
-      {% endif %}
-    {% if block.settings.accessoriesproduct %}
       <div class="item__title">
     {{ block.settings.accessoriesproduct.title }}
+    </div>
+     <div class="item__price">
+    {{ block.settings.accessoriesproduct.price }}
     </div>
       {% endif %}
     </div>

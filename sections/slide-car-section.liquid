@@ -1,10 +1,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 <div class="slider-front car-slider">
   {% if section.blocks.size > 0 %}
     <div class="slider-wrapper container">
 	  {% for block in section.blocks %}
-        <div class="car-slider__item"> 
+        <div class="car-slider__item row"> 
           <div class="item-info">
         {%- if block.settings.price-car-title -%} 
                     <div class="car-slider__title">{{ block.settings.price-car-title }}</div> 

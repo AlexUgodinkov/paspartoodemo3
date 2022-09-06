@@ -2,8 +2,8 @@
   {% if section.blocks.size > 0 %}
     <div class="slider-wrapper">
 	  {% for block in section.blocks %}
-        <div class="car-slider__item row"> 
-          <div class="item-info col-3">
+        <div class="car-slider__item"> 
+          <div class="item-info">
         {%- if block.settings.price-car-title -%} 
                     <div class="car-slider__title">{{ block.settings.price-car-title }}</div> 
                 {%- endif -%}  
@@ -24,7 +24,7 @@
                   {% endif %}
                 </div>
         </div>
-          <div class="item-images__wrapper col-9">
+          <div class="item-images__wrapper">
             {%- if block.settings.year-car -%} 
                     <div class="car-slider__year-car">{{ block.settings.year-car }}</div> 
                 {%- endif -%} 

@@ -1,7 +1,43 @@
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Double section",
+    "settings": [
+      {
+          "type": "image_picker",
+          "id": "image-1",
+          "label": "Image first"
+        },
+  {
+          "type": "text",
+          "id": "text-link-first",
+          "label": "Text first link"
+        },
+  {
+          "type": "url",
+          "id": "link-first",
+          "label": "First link"
+        },
+      {
+          "type": "image_picker",
+          "id": "image-2",
+          "label": "Image second"
+        },
+  {
+          "type": "text",
+          "id": "text-link-second",
+          "label": "Text second link"
+        },
+  {
+          "type": "url",
+          "id": "link-second",
+          "label": "Second link"
+        }
+    ],
+     "presets": [
+       {
+         "name": "Double section" 
+       }
+      ]
   }
 {% endschema %}
 

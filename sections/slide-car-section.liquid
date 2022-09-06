@@ -24,22 +24,36 @@
                   {% endif %}
                 </div>
         </div>
-          <div class="item-images">
+          <div class="item-images__wrapper">
             {%- if block.settings.year-car -%} 
                     <div class="car-slider__year-car">{{ block.settings.year-car }}</div> 
                 {%- endif -%} 
+            <div class="item-images">
             {% if block.settings.image != blank %}
             <div class="image image_normal"><img src="{{ block.settings.image | img_url :"master" }}"></div>
           {% endif %}
         {% if block.settings.hover-image != blank %}
             <div class="image image_hover"><img src="{{ block.settings.hover-image | img_url :"master" }}"></div>
           {% endif %}
+            </div>
           </div>
         </div>
       {% endfor %}
     </div>
   {% endif %}
 </div>
+
+<style>
+  .car-slider .image_hover{
+    display: none;
+  }
+ .car-slider .item-images:hover .car-slider .image_normal{
+   dispalay: none;
+ }
+  .car-slider .item-images:hover .car-slider .image_hover{
+   dispalay: block;
+ }
+</style>
 
 {% schema %}
   {

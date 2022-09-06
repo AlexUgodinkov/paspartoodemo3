@@ -726,6 +726,37 @@
         ],
         "settings": {
         }
+      },
+      "16624770156dc51efb": {
+        "type": "accessories-section",
+        "blocks": {
+          "63014b16-e1d0-487d-b096-62f9e83155bf": {
+            "type": "block",
+            "settings": {
+              "accessoriesproduct": "bed-amalfi-sham"
+            }
+          },
+          "c20bf93c-7473-4550-bd6a-60f7878c70b2": {
+            "type": "block",
+            "settings": {
+              "accessoriesproduct": "bath-bath-towels-riviera-bath-sheet-40-x-70"
+            }
+          },
+          "1905b913-0d9d-4bd4-aa53-4aacdca7608b": {
+            "type": "block",
+            "settings": {
+              "accessoriesproduct": "bath-bath-towels-bodrum-bath-towel-30-x-52"
+            }
+          }
+        },
+        "block_order": [
+          "63014b16-e1d0-487d-b096-62f9e83155bf",
+          "c20bf93c-7473-4550-bd6a-60f7878c70b2",
+          "1905b913-0d9d-4bd4-aa53-4aacdca7608b"
+        ],
+        "settings": {
+          "accessories-title": ""
+        }
       }
     },
     "content_for_index": [
@@ -736,7 +767,8 @@
       "feature-row",
       "1572614104061",
       "1572614519498",
-      "1572614868467"
+      "1572614868467",
+      "16624770156dc51efb"
     ]
   },
   "presets": {

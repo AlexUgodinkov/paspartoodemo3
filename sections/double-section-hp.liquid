@@ -3,17 +3,27 @@
     {% if section.settings.image-1 != blank %}
             <div class="double-section-image"><img src="{{ section.settings.image-1 | img_url :"master" }}"></div>
           {% endif %}
+          <div class="content-wrapper">
+            {%- if section.settings.title-first -%} 
+                    <div class="content-title">{{ section.settings.title-first }}</div> 
+                {%- endif -%} 
           {% if section.settings.link-first != blank %}
                   <a href="{{section.settings.link-first}}">{{section.settings.text-link-first}}</a>
                   {% endif %}
+          </div>
   </div>
   <div class="col-6">
     {% if section.settings.image-2 != blank %}
             <div class="double-section-image"><img src="{{ section.settings.image-2 | img_url :"master" }}"></div>
           {% endif %}
+          <div class="content-wrapper">
+            {%- if section.settings.title-second -%} 
+                    <div class="content-title">{{ section.settings.title-second }}</div> 
+                {%- endif -%} 
           {% if section.settings.link-second != blank %}
                   <a href="{{section.settings.link-second}}">{{section.settings.text-link-second}}</a>
                   {% endif %}
+          </div>
   </div>
 </div>
 

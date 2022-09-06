@@ -687,9 +687,32 @@
           "title_12": "",
           "title_13": ""
         }
+      },
+      "166247111573d12944": {
+        "type": "slide-car-section",
+        "blocks": {
+          "31d9ef84-4807-4375-8871-5be5b2069d78": {
+            "type": "slide",
+            "settings": {
+              "price-car-title": "porshe Carrera<br> Cabriolet",
+              "price-car": "",
+              "pover-car": "",
+              "engine-car": "",
+              "text-link-slide": "",
+              "link-slide": "",
+              "year-car": ""
+            }
+          }
+        },
+        "block_order": [
+          "31d9ef84-4807-4375-8871-5be5b2069d78"
+        ],
+        "settings": {
+        }
       }
     },
     "content_for_index": [
+      "166247111573d12944",
       "hero",
       "featured-collections",
       "slideshow",

@@ -1,4 +1,13 @@
-
+<div class="slider-front car-slider">
+  {% if section.blocks.size > 0 %}
+    <div class="slider-wrapper">
+	  {% for block in section.blocks %}
+        <div class="slider-item"> 
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+</div>
 
 {% schema %}
   {

@@ -757,6 +757,17 @@
         "settings": {
           "accessories-title": "123"
         }
+      },
+      "16624791828225de1f": {
+        "type": "double-section-hp",
+        "settings": {
+          "image-1": "shopify:\/\/shop_images\/43344435_1920x860_0f595fa2-5b17-4ebf-b7e7-41b1146a46a5.webp",
+          "text-link-first": "rest",
+          "link-first": "shopify:\/\/pages\/bed-all-styles",
+          "image-2": "shopify:\/\/shop_images\/3.jpg",
+          "text-link-second": "rest",
+          "link-second": "shopify:\/\/products\/bed-amalfi-pillowcases-pair"
+        }
       }
     },
     "content_for_index": [
@@ -768,7 +779,8 @@
       "1572614104061",
       "1572614519498",
       "1572614868467",
-      "16624770156dc51efb"
+      "16624770156dc51efb",
+      "16624791828225de1f"
     ]
   },
   "presets": {

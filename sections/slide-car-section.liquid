@@ -2,7 +2,21 @@
   {% if section.blocks.size > 0 %}
     <div class="slider-wrapper">
 	  {% for block in section.blocks %}
-        <div class="slider-item"> 
+        <div class="car-slider__item"> 
+        {%- if block.settings.price-car-title -%} 
+                    <div class="car-slider__title">{{ block.settings.price-car-title }}</div> 
+                {%- endif -%}  
+          <div class="car-slider__info">
+             {%- if block.settings.price-car -%} 
+                    <div class="car-slider__price-car">{{ block.settings.price-car }}</div> 
+                {%- endif -%} 
+             {%- if block.settings.pover-car -%} 
+                    <div class="car-slider__pover-car">{{ block.settings.pover-car }}</div> 
+                {%- endif -%} 
+             {%- if block.settings.engine-car -%} 
+                    <div class="car-slider__engine-car">{{ block.settings.engine-car }}</div> 
+                {%- endif -%} 
+          </div>
           <div class="car-slider__btn">
                   {% if block.settings.link-slide != blank %}
                   <a href="{{block.settings.link-slide}}">{{block.settings.text-link-slide}}</a>
@@ -25,6 +39,11 @@
        "name": "Slide",
        "type": "slide",
        "settings": [
+         {
+          "type": "html",
+          "id": "price-car-title",
+          "label": "Title"
+        },
         {
           "type": "html",
           "id": "price-car",

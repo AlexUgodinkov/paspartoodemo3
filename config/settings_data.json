@@ -695,12 +695,14 @@
             "type": "slide",
             "settings": {
               "price-car-title": "porshe Carrera<br> Cabriolet",
-              "price-car": "",
-              "pover-car": "",
-              "engine-car": "",
-              "text-link-slide": "",
-              "link-slide": "",
-              "year-car": ""
+              "price-car": "$69,000",
+              "pover-car": "355hp",
+              "engine-car": "428v8",
+              "image": "shopify:\/\/shop_images\/nomal-car.png",
+              "hover-image": "shopify:\/\/shop_images\/hover-car.png",
+              "text-link-slide": "Inquire Now",
+              "link-slide": "shopify:\/\/products\/bed-amalfi-flat-sheet",
+              "year-car": "1993"
             }
           }
         },

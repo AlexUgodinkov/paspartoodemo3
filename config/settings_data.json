@@ -704,10 +704,25 @@
               "link-slide": "shopify:\/\/products\/bed-amalfi-flat-sheet",
               "year-car": "1993"
             }
+          },
+          "189fb0c2-1b41-47e9-9d69-6bdb34d2e7da": {
+            "type": "slide",
+            "settings": {
+              "price-car-title": "1",
+              "price-car": "2",
+              "pover-car": "3",
+              "engine-car": "4",
+              "image": "shopify:\/\/shop_images\/hover-car.png",
+              "hover-image": "shopify:\/\/shop_images\/nomal-car.png",
+              "text-link-slide": "5",
+              "link-slide": "shopify:\/\/pages\/bath-shower-curtains",
+              "year-car": "1233"
+            }
           }
         },
         "block_order": [
-          "31d9ef84-4807-4375-8871-5be5b2069d78"
+          "31d9ef84-4807-4375-8871-5be5b2069d78",
+          "189fb0c2-1b41-47e9-9d69-6bdb34d2e7da"
         ],
         "settings": {
         }

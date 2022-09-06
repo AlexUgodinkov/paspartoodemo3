@@ -1,7 +1,31 @@
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Accessories section",
+    "settings": [
+      {
+          "type": "html",
+          "id": "accessories-title",
+          "label": "Title"
+        }
+    ],
+    "blocks": [
+     {
+       "name": "Block",
+       "type": "block",
+       "settings": [
+         {
+          "type": "html",
+          "id": "price-car-title",
+          "label": "Title"
+        }
+      ]
+     }
+   ],
+     "presets": [
+       {
+         "name": "Accessories section" 
+       }
+      ]
   }
 {% endschema %}
 
